@@ -50,7 +50,7 @@ def plot_grouped_bar_chart(x, casual, registered, total, labels, title, bar_widt
     st.pyplot(plt)
 
 
-df = load_data("dataset.csv")
+df = load_data("dashboard/dataset.csv")
 
 # Sidebar
 min_date, max_date = df["dteday"].min(), df["dteday"].max()

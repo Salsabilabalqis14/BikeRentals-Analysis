@@ -55,7 +55,7 @@ df = load_data("dashboard/dataset.csv")
 # Sidebar
 min_date, max_date = df["dteday"].min(), df["dteday"].max()
 with st.sidebar:
-    st.image("logo.png")
+    st.image("dashboard/logo.png")
     start_date, end_date = st.date_input(
         label='Rentang Waktu', min_value=min_date, max_value=max_date, value=[min_date, max_date]
     )

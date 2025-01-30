@@ -30,4 +30,4 @@ streamlit run dashboard.py
 
 You can visit the dashboard through this website
 
-#### [**Click here to view Bike Sharing Dashboard**](https://bikerentals-analysis.streamlit.app/)
+#### [**Click here to view Bike Rentals Dashboard**](https://bikerentals-analysis.streamlit.app/)
